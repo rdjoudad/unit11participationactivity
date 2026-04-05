@@ -5,6 +5,7 @@ class employee:
         self.last = last
         self.annual_salary = annual_salary
 
-    def give_raise(self, annual_salary):
-        annual_salary += 5000
-        
+    def give_raise(self, money_raise = 5000):
+        self.annual_salary += money_raise
+
+
